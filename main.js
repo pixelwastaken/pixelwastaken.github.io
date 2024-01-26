@@ -1,4 +1,4 @@
-const buttons = document.getElementsByClassName("play-game-b");
+const buttons = document.querySelectorAll(".play-game-b");
 alert(buttons);
 alert("what");
 for (let e of buttons) {
