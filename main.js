@@ -5,9 +5,13 @@ window.onload = function () {
     alert(buttons[0]);
     for (let e of buttons) {
         alert(e)
+
+        let gameid = e.parentElement.id
+        
         
         e.onclick = function () {
-            alert(e.innerHTML);
+            alert(gameid)
+            window.location.href = "/" + gameid
         };
     }
 };
